@@ -12,6 +12,8 @@
 		608EEEDA22C26413002850CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608EEED822C26413002850CC /* Main.storyboard */; };
 		608EEEDC22C26414002850CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608EEEDB22C26414002850CC /* Assets.xcassets */; };
 		608EEEDF22C26414002850CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608EEEDD22C26414002850CC /* LaunchScreen.storyboard */; };
+		608EEEE722C269F3002850CC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608EEEE622C269F3002850CC /* ToDoItem.swift */; };
+		608EEEEB22C26A28002850CC /* ToDoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608EEEEA22C26A28002850CC /* ToDoCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		608EEEDB22C26414002850CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608EEEDE22C26414002850CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		608EEEE022C26414002850CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608EEEE622C269F3002850CC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		608EEEEA22C26A28002850CC /* ToDoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				608EEED822C26413002850CC /* Main.storyboard */,
 				608EEEDB22C26414002850CC /* Assets.xcassets */,
 				608EEEDD22C26414002850CC /* LaunchScreen.storyboard */,
+				608EEEEA22C26A28002850CC /* ToDoCellTableViewCell.swift */,
 				608EEEE022C26414002850CC /* Info.plist */,
+				608EEEE622C269F3002850CC /* ToDoItem.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				608EEED722C26413002850CC /* ViewController.swift in Sources */,
 				608EEED522C26413002850CC /* AppDelegate.swift in Sources */,
+				608EEEE722C269F3002850CC /* ToDoItem.swift in Sources */,
+				608EEEEB22C26A28002850CC /* ToDoCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
