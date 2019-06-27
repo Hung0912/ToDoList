@@ -9,13 +9,20 @@
 import Foundation
 
 class ToDoItem{
-    var todoTitle: String?
-    var date: String?
+    var title: String
+    var startDate: String
+    var endDate: String?
+    var content: String?
     var isDone: Bool
     
-    init(title: String, day: String, isDone: Bool) {
-        self.todoTitle = title
-        self.date = day
-        self.isDone = isDone
+    init(title: String) {
+        self.title = title
+        self.isDone = false
+        
+        let date = Date()
+        let calendar = Calendar.current
+        let day = calendar.component(.day, from: date)
+        let month = calendar.component(.month, from: date)
+        self.startDate = "\(day)/\(month)"
     }
 }

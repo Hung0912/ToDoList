@@ -20,7 +20,9 @@ class ToDoCellTableViewCell: UITableViewCell {
         }else{
             sender.isSelected = true
         }
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
     }
+    
     
 
     override func awakeFromNib() {
